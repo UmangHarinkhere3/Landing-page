@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dnoichrlb/image/upload/v1689226312/Welcomepage_gurry3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.heading {
+    color: #9ae36d;
+    font-weight: 600;
+    padding-left: 50px;
+    padding-top: 200px;
+    font-size: 60px;
+    font-family: Arial;
+
+
+}
+
+span {
+    color: #44582F;
+}
+
+.logo {
+    color: #44582F;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.paragraph {
+    color: black;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+/* offering page */
+.offering-page {
+    background-color: #b268e4;
+    height: auto;
+}
+
+.offering-page-heading {
+    text-align: center;
+    font-weight: bold;
+    font-family: Sans-Serif;
+    color: black;
+    padding: 15px;
+}
+
+.offering-page-para {
+    text-align: center;
+    font-weight: normal;
+    font-family: Sans-Serif;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.card {
+    border-radius: 10px;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 10px;
+
+
+}
+
+.image {
+    border-radius: 10px;
+
+}
+
+.research {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #44582F;
+    border-radius: 12px;
+    color: white;
+    font-family: arial;
+    font-size: 8px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/* research and planning */
+.research-image {
+    height: 350px;
+    margin-top: 30px;
+    padding-left: 100px;
+    border-radius: 15px;
+}
+
+.planning-section {
+    padding: 20px;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 25px;
+
+}
+
+.dra-section p {
+    color: black;
+    font-family: Sans-Serif;
+    font-weight: normal;
+    margin-top: 30px;
+    padding-left: 100px;
+    font-size: 15px;
+}
+
+.planning-button {
+    background-color: #44582F;
+    border-radius: 25px;
+    color: white;
+    font-family: Sans-Serif;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-width: 0px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* analytics page */
+.Analytics {
+    background-color: #759376;
+
+}
+
+.Analytics-image {
+    height: 350px;
+    padding-top: 40px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-bottom: 28px;
+
+}
+
+.Analytics h3 {
+    color: white;
+    font-family: Sans-Serif;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.Analytics p {
+    color: white;
+    font-family: Sans-Serif;
+    font-weight: normal;
+    padding: 30px;
+}
+
+.planning-button1 {
+    background-color: #B7C6B8;
+    border-radius: 25px;
+    color: white;
+    font-family: Sans-Serif;
+    font-size: 9px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-width: 0px;
+    text-align: center;
+    padding: 7px;
+    margin: 20px;
+    color: black;
+}
+
+/* work page */
+.work-page {
+    background-color: #D7E2B9;
+    height: auto;
+    padding: 10px
+}
+
+.work-image {
+    border-radius: 20px;
+
+
+}
+
+.work-page h3 {
+    padding: 12px;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.work-page p {
+    color: black;
+    font-family: Sans-Serif;
+    font-weight: normal;
+    padding: 30px;
+}
+
+.contact-left {
+    flex-basis: 35%;
+    color: black;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.sub-title {
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    color: black;
+}
+
+.contact-left p i {
+    color: black;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: black;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #fcc308;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    display: inline-block;
+    background: lightgreen;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    color: black;
+    font-weight: 300;
+
+}
+
+.copyright i {
+    color: black;
+}
